@@ -13,7 +13,7 @@ sudoku_data = np.array([
     [0, 0, 0, 0, 0, 0, 0, 4, 0]
 ]).astype(int)
 
-# Create an array of 1's/0's based on whether or not the corresponding sudoku number started as 0 (is editable)
+# Create an array of 1's/0's based on whether or not the corresponding sudoku number started as 0 (1 = is editable/started as 0)
 editable_data = np.array([]).astype(int)
 for row in sudoku_data:
     for colm in row:
