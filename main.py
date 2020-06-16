@@ -1,4 +1,5 @@
 import sudoku_data as sd
+import os
 
   ###############
  ## Ryan Hall ##
@@ -44,6 +45,7 @@ def main():
             col_num += 1
         row_num += 1
     print(sd.sudoku_data)
+    os.system('pause')
 
 
 def add_num(row_num, col_num):
